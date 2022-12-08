@@ -1,0 +1,245 @@
+*{
+	margin: 0.1vh;
+	padding: 0;
+
+}
+body{
+	background: linear-gradient(180deg, #821538 0%, #2A010F 100%);
+	margin-right: 3vh;
+	margin-left: 3vh;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cabeçalho{
+	width: 100%;
+	height: 3vh;
+	flex: wrap;
+	margin-top: 3vh;
+}
+.logo{
+	float: left;
+	width: 20%;
+	height: 3vh;
+}
+.icon{
+	float: right;
+	width: 12%;
+	height: 3vh;
+}
+.nots{
+	width: 100%;
+	margin-top: 3vh;
+
+}
+#banner{
+	width: 100%;
+	height: 50vh;
+
+}
+#banner2{
+	width: 100%;
+	height: 23vh;
+}
+#banner3{
+	width: 100%;
+	height: 23vh;
+}
+.not1{
+	float: left;
+	width: 70%;
+	height: 50vh;
+}
+.not2{
+	float: right;
+	width: 25%;
+	height: 23vh;
+}
+.not3{
+	margin-top: 2.2vh;
+	float: right;
+	width: 25%;
+	height: 23vh;
+}
+.not2,.not3{
+	margin-right: 3vh;
+}
+.placar{
+	width: 20%;
+	height: 75vh;
+	background: #EDEEE4;
+	border-radius: 5px;
+}
+
+#placar{
+	margin-top: 10vh;
+	width: 90%;
+	height: 60vh;
+	margin-right: 4vh;
+	margin-left: 2vh
+}
+
+#line{
+	position: absolute;
+	width: 270px;
+	height: 0px;
+	left: 74px;
+	top: 650px;
+	border: 2px solid #E6DEB0;
+}
+
+#group{
+	position: absolute;
+	width: 137px;
+	height: 36px;
+	left: 134px;
+	top: 600px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #7C1432;
+
+}
+.text{
+	justify-content: space-around;
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 3vh;
+	width: 76.5%;
+	height: 80vh;
+}
+.texto{
+	margin-top: 3vh;
+	height: 9vh;
+	width: 99.3%;
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 22px;
+	font-style: normal;
+	line-height: 26px;
+	color: #EDEEE4;
+
+}
+.quad1,.quad2,.quad3,.quad4,.quad5,.quad6{
+	margin-top: 3vh;
+	width: 30%;
+	height: 30%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 21px;
+	text-align: center;
+	color: #EDEEE4;
+}
+.qua1,.qua2,.qua3,.qua4,.qua5,.qua6{
+	width: 97%;
+	height: 97%;
+}
+
+@media (max-width: 760px){
+
+	.cabeçalho{
+		width: 100%;
+		height: 2vh;
+		flex: wrap;
+		margin-top: 1vh;
+	}
+
+	.logo{
+		float: left;
+		width: 13%;
+		height: 1vh;
+	}
+
+	#region, #translate, .placar, .quad3, .quad4, .quad5, .quad6{
+		display: none;
+	}
+
+	.not1{
+		margin-top: 1vh;
+		width: 100%;
+		height: 15vh;
+	}
+
+	#banner{
+		width: 100%;
+		height: 15vh;
+	}
+
+	.nots{
+		width: 100%;
+		flex-wrap: wrap;
+		display: flex;
+	}
+
+	.not2{
+		float: left;
+		margin-top: 2vh;
+		width: 45%;
+		height: 10vh;
+	}
+
+	.not3{
+		float: right;
+		margin-top: 2vh;
+		width: 45%;
+		height: 10vh;
+	}
+
+	#banner2{
+		float: left;
+		width: 100%;
+		height: 10vh;
+	}
+
+	#banner3{
+		float: right;
+		width: 100%;
+		height: 10vh;
+	}
+
+	.text{
+		width: 100%;
+		height: 50vh;
+	}
+
+	.texto{
+		height: 25vh;
+		width: 100%;
+		font-family: 'Roboto';
+		font-size: small;
+		font-style: normal;
+		color: #EDEEE4;
+		text-indent: justify;
+		margin-bottom: 4vh;
+	}
+
+	.quad1, .quad2{
+		display: flex;
+		flex-wrap: wrap;
+		width: 50%;
+		height: 25%;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-size: small;
+		color: #EDEEE4;
+	}
+
+	.quad1{
+		float: left;
+	}
+
+	.quad2{
+		float: right;
+	}
+
+
+}
